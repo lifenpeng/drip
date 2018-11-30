@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Class-Path: spring-test-5.0.9.RELEASE.jar spring-data-commons-2.0.10.R
+ ELEASE.jar spring-boot-starter-logging-2.0.5.RELEASE.jar hibernate-va
+ lidator-6.0.12.Final.jar spring-expression-5.0.9.RELEASE.jar spring-b
+ oot-2.0.5.RELEASE.jar spring-context-5.0.9.RELEASE.jar spring-boot-st
+ arter-2.0.5.RELEASE.jar jackson-core-2.9.6.jar jackson-databind-2.9.6
+ .jar accessors-smart-1.2.jar dom4j-1.6.1.jar spring-tx-5.0.9.RELEASE.
+ jar log4j-to-slf4j-2.10.0.jar jackson-datatype-jsr310-2.9.6.jar sprin
+ g-boot-starter-web-2.0.5.RELEASE.jar jsonassert-1.5.0.jar asm-5.0.4.j
+ ar mockito-core-2.15.0.jar classmate-1.3.4.jar spring-aspects-5.0.9.R
+ ELEASE.jar spring-boot-starter-json-2.0.5.RELEASE.jar tomcat-embed-we
+ bsocket-8.5.34.jar spring-boot-starter-aop-2.0.5.RELEASE.jar tomcat-e
+ mbed-core-8.5.34.jar json-smart-2.3.jar spring-boot-autoconfigure-2.0
+ .5.RELEASE.jar spring-web-5.0.9.RELEASE.jar hibernate-commons-annotat
+ ions-5.0.1.Final.jar xmlunit-core-2.5.1.jar tomcat-embed-el-8.5.34.ja
+ r byte-buddy-agent-1.7.11.jar spring-boot-test-2.0.5.RELEASE.jar spri
+ ng-boot-starter-jdbc-2.0.5.RELEASE.jar junit-4.12.jar spring-beans-5.
+ 0.9.RELEASE.jar spring-core-5.0.9.RELEASE.jar aspectjweaver-1.8.13.ja
+ r spring-boot-configuration-processor-2.0.5.RELEASE.jar jandex-2.0.3.
+ Final.jar jackson-annotations-2.9.0.jar spring-boot-starter-test-2.0.
+ 5.RELEASE.jar assertj-core-3.9.1.jar jul-to-slf4j-1.7.25.jar byte-bud
+ dy-1.7.11.jar spring-webmvc-5.0.9.RELEASE.jar antlr-2.7.7.jar spring-
+ boot-starter-tomcat-2.0.5.RELEASE.jar mysql-connector-java-5.1.47.jar
+  hibernate-jpa-2.1-api-1.0.2.Final.jar validation-api-2.0.1.Final.jar
+  json-path-2.4.0.jar javax.annotation-api-1.3.2.jar snakeyaml-1.19.ja
+ r logback-core-1.2.3.jar jackson-datatype-jdk8-2.9.6.jar spring-jdbc-
+ 5.0.9.RELEASE.jar spring-orm-5.0.9.RELEASE.jar objenesis-2.6.jar hamc
+ rest-core-1.3.jar spring-jcl-5.0.9.RELEASE.jar spring-boot-starter-da
+ ta-jpa-2.0.5.RELEASE.jar HikariCP-2.7.9.jar android-json-0.0.20131108
+ .vaadin1.jar hibernate-core-5.2.17.Final.jar jackson-module-parameter
+ -names-2.9.6.jar javax.transaction-api-1.2.jar spring-aop-5.0.9.RELEA
+ SE.jar log4j-api-2.10.0.jar slf4j-api-1.7.25.jar jboss-logging-3.3.2.
+ Final.jar logback-classic-1.2.3.jar javassist-3.22.0-GA.jar spring-bo
+ ot-test-autoconfigure-2.0.5.RELEASE.jar spring-data-jpa-2.0.10.RELEAS
+ E.jar hamcrest-library-1.3.jar
+Main-Class: com.app.appapi.AppApiApplication
+

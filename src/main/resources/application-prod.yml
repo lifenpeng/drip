@@ -1,0 +1,5 @@
+server:
+  port: 1170
+api:
+  apiUser: "api2970"
+  apiCode: "0792"
