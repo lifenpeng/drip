@@ -1,5 +1,7 @@
 server:
   port: 1170
+  tomcat:
+      max-http-post-size: -1
 api:
   apiUser: "api2970"
   apiCode: "0792"
