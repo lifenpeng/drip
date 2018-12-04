@@ -50,8 +50,8 @@ public class ArticleController{
 
     //查询文章
     @GetMapping(value = "/article/{id}")
+    @CrossOrigin
     public Article getArticle(@PathVariable("id") Integer id){
-
 
         return articleRepository.findById(id).get();
 
