@@ -1,5 +1,5 @@
 server:
-  port: 1170
+  port: 80
   tomcat:
       max-http-post-size: -1
 api:
