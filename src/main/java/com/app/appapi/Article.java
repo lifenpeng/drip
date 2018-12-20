@@ -19,7 +19,7 @@ public class Article {
     private int id;
     private String title;
     private String source;
-    private int cateid;
+    private String cateid;
     private String brief;
     private String content;
     private Timestamp time;
@@ -54,11 +54,11 @@ public class Article {
         this.source = source;
     }
 
-    public int getCateid() {
+    public String getCateid() {
         return cateid;
     }
 
-    public void setCateid(int cateid) {
+    public void setCateid(String cateid) {
         this.cateid = cateid;
     }
 
