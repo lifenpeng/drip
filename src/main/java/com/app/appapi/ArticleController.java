@@ -65,26 +65,31 @@ public class ArticleController{
     //PUT请求 更新文章
     @PutMapping(value = "/article/{id}")
     @CrossOrigin
-    public Article upArticle(@PathVariable("id") Integer id,
-                              @RequestParam("title") String title,
-                              @RequestParam("source") String source,
-                              @RequestParam("cateid") String cateid,
-                              @RequestParam("brief") String brief,
-                              @RequestParam("content") String content){
+    public HashMap upArticle(@PathVariable("id") Integer id,
+                             @RequestBody String data){
 
         Date time = new Date();
         SimpleDateFormat simpleDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
+        Gson gson = new Gson();
+        Map<String, Object> add = new HashMap<String, Object>();
+        add = gson.fromJson(data, add.getClass());
+
+        System.out.println(data);
+
         Article article = new Article();
         article.setId(id);
-        article.setTitle(title);
-        article.setSource(source);
-        article.setCateid(cateid);
-        article.setBrief(brief);
-        article.setContent(content);
+        article.setTitle(add.get("title").toString());
+        article.setSource(add.get("source").toString());
+        article.setCateid(add.get("cateid").toString());
+        article.setBrief(add.get("brief").toString());
+        article.setContent(add.get("content").toString());
         article.setTime(Timestamp.valueOf(simpleDate.format(time)));
+        articleRepository.save(article);
+        HashMap info = new HashMap();
+        info.put("edit",true);
 
-        return articleRepository.save(article);
+        return info;
 
     }
 
